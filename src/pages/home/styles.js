@@ -8,12 +8,15 @@ export const Select = styled.TouchableOpacity`
   padding: 8px 12px;
 `;
 
-export const Container = styled.View`
-  border: 1px solid #000;
-  margin: 10px;
-  flex: 1;
-`;
-
 export const Modal = styled.Modal`
   
+`;
+
+export const Slider = styled.View`
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 5px 20px 10px;
+  align-items: center;
+  padding: 30px;
+  flex: 1;
 `;
